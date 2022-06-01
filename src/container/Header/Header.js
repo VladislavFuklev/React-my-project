@@ -9,7 +9,7 @@ export function Headers() {
         <Container>
           <div className="header__container">
             <div className="header__logo">
-              <img src="img/1.gpeg" alt=""></img>
+              <img src="" alt=""></img>
             </div>
             <div className="header__menu">
               <ul className="menu__list">
