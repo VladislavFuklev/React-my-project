@@ -1,9 +1,10 @@
 import React from "react";
+import logo from "assets/retina-journey.png"
 
 export function HeaderLogo() {
   return (
     <div className="header__logo">
-      <img src="" alt=""></img>
+      <img src={logo} alt=""/>
     </div>
   );
 }

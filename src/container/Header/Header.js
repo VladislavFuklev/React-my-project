@@ -1,10 +1,10 @@
 import React from "react";
 import { Container } from "@mui/material";
-import "./Header.css";
+import "./Header.scss";
 import { HeaderLogo } from "./HeaderLogo";
 import { HeaderMenu } from "./HeaderMenu";
 
-export function Headers() {
+export function Header() {
   return (
     <>
       <div className="header">
