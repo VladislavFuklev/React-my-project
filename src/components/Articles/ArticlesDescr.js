@@ -1,6 +1,4 @@
-import { CardContent } from "@mui/material";
 import React from "react";
-import { ArticlesTitle } from "./ArticlesTitle";
 
 export function ArticlesDescr({ image, title, properties }) {
   return (
