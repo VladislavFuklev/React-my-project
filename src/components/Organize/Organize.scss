@@ -1,0 +1,24 @@
+.orginize__header {
+    display: flex;
+    justify-content: space-between;
+}
+@mixin orginize {
+    width: 50%;
+    padding: 30px;
+    font-size: 25px;
+}
+
+.orginize__left{
+    background-color: rgb(209, 209, 209);
+    color: gray;
+    text-align: right;
+    @include orginize;
+}
+
+.orginize__right{
+    background-color: black;
+    color: white;
+    text-align: left;
+    @include orginize;
+
+}

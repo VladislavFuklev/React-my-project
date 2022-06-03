@@ -8,17 +8,23 @@
     color: gray;
 }
 
+
 .articles__block{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.section-articles{
+    background: rgb(231, 231, 231);
 }
 .articles__img{
-    margin-top: 30px;
+    overflow: hidden;
+
     img {
-        overflow: hidden;
-        width: 400px;
+        width: 100%;
     }
     transition: 0.5s all;
     &:hover {
@@ -56,7 +62,9 @@
     color: gray;
     margin-top: 5px;
 }
-.bc{
-    background-color:rgb(205, 205, 205);
-}
 
+
+
+.bc{
+    background-color: red;
+}

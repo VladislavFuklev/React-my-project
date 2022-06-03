@@ -1,4 +1,5 @@
 import React from "react";
+import "./Articles.scss"
 
 export function ArticlesDescr({ image, title, properties }) {
   return (
