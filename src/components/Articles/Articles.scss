@@ -15,14 +15,14 @@
     align-items: center;
     margin-bottom: 50px;
     padding-top: 30px;
+    
 }
 
 .section-articles{
     background: rgb(231, 231, 231);
 }
 .articles__img{
-    overflow: hidden;
-
+    
     img {
         width: 100%;
     }
@@ -30,9 +30,7 @@
     &:hover {
         transform: scale(1.05);
         cursor: pointer;
-    &:hover :after {
-            width: 30%;
-        }
+    
     }
 }
 
@@ -65,6 +63,9 @@
 
 
 
-.bc{
-    background-color: red;
+.ov-hidden {
+    overflow: hidden;
+    &:hover ::after{
+        width: 30%;
+    }
 }

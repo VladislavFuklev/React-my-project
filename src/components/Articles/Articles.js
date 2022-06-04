@@ -14,11 +14,13 @@ export function Articles() {
           <Grid container spacing={2}>
             {product.map(({ id, image, properties, title }) => (
               <Grid item xs={12} sm={6} md={4} key={id}>
-                <ArticlesDescr
-                  image={image}
-                  properties={properties}
-                  title={title}
-                />
+                <div className="ov-hidden">
+                  <ArticlesDescr
+                    image={image}
+                    properties={properties}
+                    title={title}
+                  />
+                </div>
               </Grid>
             ))}
           </Grid>

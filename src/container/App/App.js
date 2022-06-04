@@ -9,8 +9,8 @@ export function App() {
     <>
       <CssBaseline />
       <Header />
-      <Articles/>
       <Orginize/>
+      <Articles/>
     </>
   );
 }
