@@ -1,4 +1,4 @@
-import { Container, CssBaseline, Grid } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 import React from "react";
 import { ArticlesDescr } from "./ArticlesDescr";
 import product from "utils/ArticlesArray";

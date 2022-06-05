@@ -1,0 +1,64 @@
+.popular-img {
+    width: 90%;
+    transition: 0.5s;
+
+    &:hover {
+        transform: scale(1.05)
+    }
+}
+
+.popular-top {
+    overflow: hidden;
+
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.popular-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    text-align: center;
+    width: 90%;
+    height: 100px;
+
+    p {
+        font-size: 16px;
+        color: gray;
+    }
+}
+
+.popular-section {
+    background-color: rgb(231, 231, 231);
+    ;
+    padding-top: 40px;
+}
+
+.description-title {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.description-text {
+    color: gray;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.description-btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    color: gray;
+    cursor: pointer;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: rgb(1, 0, 0);
+        color: white;
+    }
+}
