@@ -10,7 +10,7 @@ export function Popular() {
     <>
       <section className="popular-section">
         <Container>
-          <Grid container >
+          <Grid container gap="30px" wrap >
             {popular.map(
               ({
                 image,
@@ -20,7 +20,7 @@ export function Popular() {
                 descriptionText,
                 id,
               }) => (
-                <Grid item xs={12} sm={6} md={3} key={id}>
+                <Grid item xs={12} sm={6} md={5} key={id}>
                   <PopularDescr
                     image={image}
                     title={title}
