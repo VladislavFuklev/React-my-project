@@ -5,20 +5,20 @@ export function OrganizeRight() {
     <>
       <div className="organize-img">
         <div className="organize-block">
-          <a href="#">
-            <img src="img/q1.png" alt="" />
+          <a href="#/">
+            <img src="img/q1.png" alt="#/" />
           </a>
           <p>Transport</p>
         </div>
         <div className="organize-block">
-          <a href="#">
-            <img src="img/q2.png" alt="" />
+          <a href="#/">
+            <img src="img/q2.png" alt="#/" />
           </a>
           <p>Trip guiding</p>
         </div>
         <div className="organize-block">
-          <a href="#">
-            <img src="img/q3.png" alt="" />
+          <a href="#/">
+            <img src="img/q3.png" alt="#/" />
           </a>
           <p>Food and bed</p>
         </div>

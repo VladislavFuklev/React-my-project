@@ -1,5 +1,5 @@
 import React from "react";
-import { OrganizeDescr, OrganizeRight } from "./OrganizeRight";
+import { OrganizeRight } from "./OrganizeRight";
 import { OrganizeHeader } from "./OrganizeHeader";
 import "./Organize.scss";
 import { Container, Grid } from "@mui/material";
@@ -16,7 +16,7 @@ export function Orginize() {
               <OrganizeLeft />
             </Grid>
             <Grid item md={7}>
-             <OrganizeRight/>
+              <OrganizeRight />
             </Grid>
           </Grid>
         </Container>

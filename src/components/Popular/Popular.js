@@ -3,13 +3,14 @@ import React from "react";
 import "utils/PopoularArray";
 import popular from "utils/PopoularArray";
 import { PopularDescr } from "./PopularDescr";
+import { PopularRight } from "./PopularRight";
 
 export function Popular() {
   return (
     <>
       <section className="popular-section">
         <Container>
-          <Grid container justifyContent='space-between'>
+          <Grid container >
             {popular.map(
               ({
                 image,
@@ -30,6 +31,7 @@ export function Popular() {
                 </Grid>
               )
             )}
+            <PopularRight />
           </Grid>
         </Container>
       </section>
