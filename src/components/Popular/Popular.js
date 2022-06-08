@@ -10,7 +10,7 @@ export function Popular() {
     <>
       <section className="popular-section">
         <Container>
-          <Grid container gap="30px" wrap >
+          <Grid container gap="30px" wrap="nowrap" >
             {popular.map(
               ({
                 image,
