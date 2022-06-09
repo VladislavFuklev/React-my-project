@@ -4,7 +4,7 @@ import { FaTelegram } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 
-export function FooterIcons() {
+export function FooterIcons() { 
   return (
     <>
       <div className="footer-descr">
