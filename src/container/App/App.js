@@ -7,17 +7,14 @@ import { Popular } from "components/Popular/Popular";
 import { Comments } from "components/Comments/Comments";
 import { Footer } from "container/Footer/Footer";
 import { Mdn } from "components/Carusel/Carusel";
+import { Main } from "container/Main/Main";
 
 export function App() {
   return (
     <>
       <CssBaseline />
       <Header />
-      <Mdn />
-      <Orginize />
-      <Popular />
-      <Articles />
-      <Comments />
+      <Main />
       <Footer />
     </>
   );

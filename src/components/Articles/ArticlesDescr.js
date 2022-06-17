@@ -1,14 +1,26 @@
 import React from "react";
-import "./Articles.scss"
+import { Link} from "react-router-dom";
+import "./Articles.scss";
 
-export function ArticlesDescr({ image, title, properties }) {
+export function ArticlesDescr({ image, title, properties, category }) {
   return (
     <>
-        <div className="articles__img">
-          <img src={image} alt="#/" />
+      <div className="articles__img">
+        <img src={image} alt="#/" />
+      </div>
+      <div className="articles__properties">
+        <div
+          style={{
+            padding: "5px 10px",
+          }}
+        >
+          {properties}
         </div>
-        <div className="articles__properties">{properties}</div>
-        <div className="articles__name">{title}</div>
+        <div className="category">
+          <Link to='/nature' className="category-link">{category}</Link>
+        </div>
+      </div>
+      <div className="articles__name">{title}</div>
     </>
   );
 }
