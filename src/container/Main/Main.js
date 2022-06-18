@@ -1,4 +1,3 @@
-import { Container } from "@mui/material";
 import { Articles } from "components/Articles/Articles";
 import { Mdn } from "components/Carusel/Carusel";
 import { Comments } from "components/Comments/Comments";
