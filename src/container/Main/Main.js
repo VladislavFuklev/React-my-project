@@ -2,6 +2,7 @@ import { Articles } from "components/Articles/Articles";
 import { Mdn } from "components/Carusel/Carusel";
 import { Comments } from "components/Comments/Comments";
 import { Orginize } from "components/Organize/Organize";
+import { Popular } from "components/Popular/Popular";
 import { Category } from "pages/Category/CategoryTravels";
 import { Countries } from "pages/Countries/Countries";
 import { Nature } from "pages/Nature/Nature";
@@ -22,6 +23,9 @@ export const Main = () => {
       </Routes>
       <Routes>
         <Route path="/" element={<Orginize />} />
+      </Routes>
+      <Routes>
+        <Route path="/" element={<Popular />} />
       </Routes>
       <Routes>
         <Route path="/" element={<Comments />} />
