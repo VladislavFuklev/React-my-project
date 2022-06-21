@@ -27,14 +27,14 @@ export function HeaderMenu() {
                 menuVariant="dark"
                 className="list__link home__link"
               >
-                <NavDropdown.Item href="#action/3.1" className="category">
-                  <Link to="/travels" className="category-link">Travels</Link>
+                <NavDropdown.Item href="#action/3.1" className="category-header">
+                  <Link to="/travels" className="category-link-header">Travels</Link>
                   </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2" className="category">
-                <Link to="/countries" className="category-link">Countries</Link>
+                <NavDropdown.Item href="#action/3.2" className="category-header">
+                <Link to="/countries" className="category-link-header">Countries</Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3" className="category">
-                <Link to="/nature" className="category-link">Nature</Link>
+                <NavDropdown.Item href="#action/3.3" className="category-header">
+                <Link to="/nature" className="category-link-header">Nature</Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
