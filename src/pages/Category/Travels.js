@@ -5,7 +5,7 @@ import React from "react";
 import product from "utils/ArticlesArray";
 import "./travels.scss";
 
-export const Category = () => {
+export const Travels = () => {
   return (
     <>
       <Grid container spacing={2} justifyContent="center">

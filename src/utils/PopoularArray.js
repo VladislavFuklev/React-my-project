@@ -3,19 +3,19 @@ const popular = [
     id: 1,
     image: "img/l1.jpeg",
     title: "Pellentesque dictum",
-    placeholder: "SAGITTIS",
+    placeholder: "Travels",
   },
   {
     id: 2,
     image: "img/l2.jpeg",
     title: "Sed molestie cras",
-    placeholder: "Nulla",
+    placeholder: "Nature",
   },
   {
     id: 3,
     image: "img/l3.jpeg",
     title: "Suspen disse potetni",
-    placeholder: "Potenti",
+    placeholder: "Countries",
   },
   
 ];

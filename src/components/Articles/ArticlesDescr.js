@@ -17,8 +17,8 @@ export function ArticlesDescr({ image, title, properties, category }) {
           {properties}
         </div>
         <div className="category">
-          <Link to={category} className="category-link">{category}</Link>
-        </div>
+          <Link to={`/${category}`} className="category-link">{category}</Link>
+        </div> 
       </div>
       <div className="articles__name">{title}</div>
     </>

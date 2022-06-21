@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Popular.scss";
 
 export function PopularDescr({ image, title, placeholder }) {
