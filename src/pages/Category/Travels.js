@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import { ArticlesDescr } from "components/Articles/ArticlesDescr";
+import { Mdn } from "components/Carusel/Carusel";
 import { Comments } from "components/Comments/Comments";
 import React from "react";
 import product from "utils/ArticlesArray";

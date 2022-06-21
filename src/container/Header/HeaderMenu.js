@@ -14,9 +14,8 @@ export function HeaderMenu() {
 
         </li>
         <li className="list__item">
-          <a className="list__link" href="#/">
-            Destinations
-          </a>
+          <Link className="list__link"  to="/whoweare">Who we are</Link>
+        
         </li>
         <Navbar variant="dark" bg="dark" expand="lg">
           <Navbar.Toggle aria-controls="navbar-dark-example" />
@@ -29,7 +28,7 @@ export function HeaderMenu() {
                 className="list__link home__link"
               >
                 <NavDropdown.Item href="#action/3.1" className="category">
-                  <Link to="/category" className="category-link">Travels</Link>
+                  <Link to="/travels" className="category-link">Travels</Link>
                   </NavDropdown.Item>
                 <NavDropdown.Item href="#action/3.2" className="category">
                 <Link to="/countries" className="category-link">Countries</Link>

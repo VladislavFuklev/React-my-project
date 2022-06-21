@@ -2,13 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Popular.scss";
 
-export function PopularDescr({ image, title, placeholder }) {
+export function PopularDescr({ image, title, placeholder, category }) {
   return (
     <>
       <div className="popular-top">
-        <a href="#/">
+        <Link to={`/${category}`}>
           <img className="popular-img" src={image} alt="#/" />
-        </a>
+        </Link>
         <div className="popular-title">
           <p>{placeholder}</p>
           {title}

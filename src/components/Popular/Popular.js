@@ -16,17 +16,15 @@ export function Popular() {
                 image,
                 title,
                 placeholder,
-                descriptionTitle,
-                descriptionText,
                 id,
+                category
               }) => (
                 <Grid item xs={12} sm={6} md={5} key={id}>
                   <PopularDescr
                     image={image}
                     title={title}
                     placeholder={placeholder}
-                    descriptionTitle={descriptionTitle}
-                    descriptionText={descriptionText}
+                    category={category}
                   />
                 </Grid>
               )
