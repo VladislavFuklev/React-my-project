@@ -7,7 +7,7 @@ export const WhoDescrImage = () => {
     <>
       <Container>
         <div className="descr-img">
-          <img src="img/im123.png" />
+          <img src="img/im123.png" alt="#/"/>
         </div>
       </Container>
     </>

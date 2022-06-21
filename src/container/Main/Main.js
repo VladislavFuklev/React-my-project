@@ -1,4 +1,3 @@
-import { Articles } from "components/Articles/Articles";
 import { Mdn } from "components/Carusel/Carusel";
 import { Comments } from "components/Comments/Comments";
 import { Orginize } from "components/Organize/Organize";
