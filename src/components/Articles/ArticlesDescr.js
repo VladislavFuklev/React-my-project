@@ -1,12 +1,14 @@
 import React from "react";
-import { Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Articles.scss";
 
-export function ArticlesDescr({ image, title, properties, category }) {
+export function ArticlesDescr({ image, title, properties, category, id }) {
   return (
     <>
       <div className="articles__img">
-        <img src={image} alt="#/" />
+        <Link to={`/productsPages/${id}`}>
+          <img src={image} alt="#/" />
+        </Link>
       </div>
       <div className="articles__properties">
         <div
@@ -17,8 +19,10 @@ export function ArticlesDescr({ image, title, properties, category }) {
           {properties}
         </div>
         <div className="category">
-          <Link to={`/${category}`} className="category-link">{category}</Link>
-        </div> 
+          <Link to={`/${category}`} className="category-link">
+            {category}
+          </Link>
+        </div>
       </div>
       <div className="articles__name">{title}</div>
     </>

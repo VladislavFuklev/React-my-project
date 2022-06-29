@@ -44,6 +44,17 @@ const product = [
 ];
 
 
+export const getProductsObject = (array) =>
+    array.reduce(
+        (obj, product) => ({
+            ...obj,
+            [product.id]: product,
+        }),
+        {}
+    )
+
+
+
 
 
 

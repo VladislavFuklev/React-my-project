@@ -20,6 +20,7 @@ export function Articles() {
                     properties={properties}
                     title={title}
                     category={category}
+                    id={id}
                   />
                 </div>
               </Grid>

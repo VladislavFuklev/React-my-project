@@ -10,12 +10,14 @@ export function HeaderMenu() {
     <div className="header__menu">
       <ul className="menu__list">
         <li className="list__item">
-        <Link to='/' className="active-Link">Home</Link>
-
+          <Link to="/" className="active-Link">
+            Home
+          </Link>
         </li>
         <li className="list__item">
-          <Link className="list__link"  to="/whoweare">Who we are</Link>
-        
+          <Link className="list__link" to="/whoweare">
+            Who we are
+          </Link>
         </li>
         <Navbar variant="dark" bg="dark" expand="lg">
           <Navbar.Toggle aria-controls="navbar-dark-example" />
@@ -27,14 +29,29 @@ export function HeaderMenu() {
                 menuVariant="dark"
                 className="list__link home__link"
               >
-                <NavDropdown.Item href="#action/3.1" className="category-header">
-                  <Link to="/travels" className="category-link-header">Travels</Link>
-                  </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2" className="category-header">
-                <Link to="/countries" className="category-link-header">Countries</Link>
+                <NavDropdown.Item
+                  href="#action/3.1"
+                  className="category-header"
+                >
+                  <Link to="/travels" className="category-link-header">
+                    Travels
+                  </Link>
                 </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3" className="category-header">
-                <Link to="/nature" className="category-link-header">Nature</Link>
+                <NavDropdown.Item
+                  href="#action/3.2"
+                  className="category-header"
+                >
+                  <Link to="/countries" className="category-link-header">
+                    Countries
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item
+                  href="#action/3.3"
+                  className="category-header"
+                >
+                  <Link to="/nature" className="category-link-header">
+                    Nature
+                  </Link>
                 </NavDropdown.Item>
               </NavDropdown>
             </Nav>
