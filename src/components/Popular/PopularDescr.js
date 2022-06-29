@@ -19,4 +19,3 @@ export function PopularDescr({ image, title, placeholder, category }) {
 }
 
 
-{/* <Link to={`/${category}`}> */}
