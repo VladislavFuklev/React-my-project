@@ -29,7 +29,6 @@ export function Popular() {
                 </Grid>
               )
             )}
-            <PopularRight />
           </Grid>
         </Container>
       </section>

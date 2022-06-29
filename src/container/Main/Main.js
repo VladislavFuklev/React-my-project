@@ -8,8 +8,9 @@ import { Countries } from "pages/Countries/Countries";
 import { Nature } from "pages/Nature/Nature";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Articles } from "components/Articles/Articles";
+import { Articles } from "pages/Articles/Articles";
 import { ProductsItem } from "pages/ProductsPages/ProductsItem";
+import { Reviews } from "components/Reviews/Reviews";
 
 export const Main = () => {
   return (
@@ -22,8 +23,9 @@ export const Main = () => {
               <Mdn />
               <Popular />
               <Orginize />
-              <Articles />
-              <Comments />
+              {/* <Articles /> */}
+              {/* <Comments /> */}
+              <Reviews/>
             </>
           }
         />
@@ -33,6 +35,7 @@ export const Main = () => {
         <Route path="/Countries" element={<Countries />} />
         <Route path="/nature" element={<Nature />} />
         <Route path="/ProductsPages/:id" element={<ProductsItem />} />
+        <Route path="/Articles" element={<Articles /> } />
       </Routes>
     </>
   );

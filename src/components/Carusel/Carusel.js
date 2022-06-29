@@ -6,11 +6,12 @@ import "./Carusel.scss";
 export function Mdn() {
   return (
     <>
+      <div className="discover">DISCOVER THE MOST ENGAGING PLACES</div>
       <Carousel className="mdn">
         <Carousel.Item>
           <img
             className="d-block w-100 img-h"
-            src="img/111.jpg"
+            src="/img/111.jpg"
             alt="First slide"
           />
           <Carousel.Caption></Carousel.Caption>
@@ -18,7 +19,7 @@ export function Mdn() {
         <Carousel.Item>
           <img
             className="d-block w-100 img-h"
-            src="img/222.jpg"
+            src="/img/222.jpg"
             alt="Second slide"
           />
 
@@ -28,7 +29,7 @@ export function Mdn() {
           <img
             height="600px"
             className="d-block w-100 img-h"
-            src="img/333.jpg"
+            src="/img/333.jpg"
             alt="Third slide"
           />
 

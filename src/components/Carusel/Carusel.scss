@@ -1,4 +1,15 @@
 .img-h{
-    max-height: 500px;
+    height: 600px;
+    position: relative;
+}
+
+.discover {
+    position: absolute;
+    top: 150px;
+    color: white;
+    font-size: 40px;
+    z-index: 1;
+    left: 300px;
+    width: 400px;
 }
 

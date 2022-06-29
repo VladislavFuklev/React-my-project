@@ -2,7 +2,6 @@
     overflow: hidden;
     position: relative;
     justify-content: center;
-    height: 424px;
     &:hover .popular-title{
         background-color: rgb(0, 0, 0);
         transition: 0.5s;
@@ -20,6 +19,7 @@
     }
 }
 
+
 .popular-title {
     font-size: 20px;
     font-weight: bold;
@@ -33,7 +33,7 @@
 
     p {
         font-size: 16px;
-        color: gray;
+        color: white;
     }
 }
 

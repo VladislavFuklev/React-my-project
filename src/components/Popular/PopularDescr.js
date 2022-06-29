@@ -10,7 +10,7 @@ export function PopularDescr({ image, title, placeholder, category }) {
           <img className="popular-img" src={image} alt="#/" />
         </Link>
         <div className="popular-title">
-          <p>{placeholder}</p>
+          <p className="place">{placeholder}</p>
           {title}
         </div>
       </div>

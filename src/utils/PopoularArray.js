@@ -20,6 +20,13 @@ const popular = [
     placeholder: "Countries",
     category: "Countries"
   },
+  {
+    id: 4,
+    image: "img/alll.jpeg",
+    title: "Suspen disse potetni",
+    placeholder: "All",
+    category: "All"
+  },
   
 ];
 
