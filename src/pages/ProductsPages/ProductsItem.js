@@ -14,9 +14,8 @@ export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
   let { id } = useParams();
   return (
     <>
-      <WhoImage />
-      <WhoText />
       <div className="item-bgc">
+      <h1 style={{textAlign:'center', fontWeight:'bold'}}>{productObj[id].title}</h1>
         <Container>
           <Grid container justifyContent="center">
             <Grid item>
@@ -26,24 +25,13 @@ export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
                   style={{
                     width: "800px",
                     height: "400px",
+                    marginTop:'40px',
+                    marginBottom:'40px'
                   }}
                   src={productObj[id].image}
                   rounded
                 />
               </div>
-              <div className="articles__properties">
-                <div>{productObj[id].properties}</div>
-
-                <div
-                  style={{
-                    color: "white",
-                  }}
-                  className="category"
-                >
-                  {productObj[id].category}
-                </div>
-              </div>
-              <div className="articles__name">{productObj[id].title}</div>
             </Grid>
           </Grid>
           <div

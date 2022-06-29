@@ -9,6 +9,14 @@ export const Countries = () => {
   return (
     <>
       <div className="item-bgc">
+      <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+          }}
+        >
+          Countries
+        </h1>
         <Grid container spacing={2} justifyContent="center">
           {product
             .filter((category) => category.category === "Countries")

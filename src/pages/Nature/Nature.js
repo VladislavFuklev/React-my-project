@@ -8,6 +8,15 @@ export const Nature = () => {
   return (
     <>
       <div className="item-bgc">
+        <h1
+          style={{
+            textAlign: "center",
+            fontWeight: "bold",
+          }}
+        >
+          Nature
+        </h1>
+
         <Grid container spacing={2} justifyContent="center">
           {product
             .filter((category) => category.category === "Nature")
@@ -26,8 +35,7 @@ export const Nature = () => {
             ))}
         </Grid>
       </div>
-      <Reviews/>
+      <Reviews />
     </>
   );
 };
-
