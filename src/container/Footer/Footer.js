@@ -8,21 +8,23 @@ import { FooterText } from "./FooterText";
 export function Footer() {
   return (
     <>
-      <Container>
-        <Grid
-          container
-          direction="row"
-          justifyContent="space-between"
-          alignItems="center"
-        >
-          <Grid item>
-            <FooterText />
+      <div style={{ background: "#212529" }}>
+        <Container>
+          <Grid
+            container
+            direction="row"
+            justifyContent="space-between"
+            alignItems="center"
+          >
+            <Grid item>
+              <FooterText />
+            </Grid>
+            <Grid item>
+              <FooterIcons />
+            </Grid>
           </Grid>
-          <Grid item>
-            <FooterIcons />
-          </Grid>
-        </Grid>
-      </Container>
+        </Container>
+      </div>
     </>
   );
 }

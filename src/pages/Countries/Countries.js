@@ -3,6 +3,7 @@ import { ArticlesDescr } from "pages/Articles/ArticlesDescr";
 import { Comments } from "components/Comments/Comments";
 import React from "react";
 import product from "utils/ArticlesArray";
+import { Reviews } from "components/Reviews/Reviews";
 
 export const Countries = () => {
   return (
@@ -26,6 +27,7 @@ export const Countries = () => {
             ))}
         </Grid>
       </div>
+      <Reviews/>
       <Comments />
     </>
   );

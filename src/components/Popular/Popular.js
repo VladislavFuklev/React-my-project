@@ -3,7 +3,6 @@ import React from "react";
 import "utils/PopoularArray";
 import popular from "utils/PopoularArray";
 import { PopularDescr } from "./PopularDescr";
-import { PopularRight } from "./PopularRight";
 
 export function Popular() {
   return (

@@ -11,6 +11,7 @@ import { Route, Routes } from "react-router-dom";
 import { Articles } from "pages/Articles/Articles";
 import { ProductsItem } from "pages/ProductsPages/ProductsItem";
 import { Reviews } from "components/Reviews/Reviews";
+import { AllArticles } from "pages/allArticles/AllArticles";
 
 export const Main = () => {
   return (
@@ -23,9 +24,7 @@ export const Main = () => {
               <Mdn />
               <Popular />
               <Orginize />
-              {/* <Articles /> */}
-              {/* <Comments /> */}
-              <Reviews/>
+              <Reviews />
             </>
           }
         />
@@ -34,8 +33,8 @@ export const Main = () => {
         <Route path="/travels" element={<Travels />} />
         <Route path="/Countries" element={<Countries />} />
         <Route path="/nature" element={<Nature />} />
+        <Route path="/allarticles" element={<AllArticles/>} />
         <Route path="/ProductsPages/:id" element={<ProductsItem />} />
-        <Route path="/Articles" element={<Articles /> } />
       </Routes>
     </>
   );

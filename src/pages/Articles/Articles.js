@@ -8,7 +8,7 @@ import "./Articles.scss";
 export function Articles() {
   return (
     <>
-      {/* <section className="section-articles">
+      <section className="section-articles">
         <Container>
           <ArticlesTitle />
           <Grid container spacing={2}>
@@ -27,9 +27,9 @@ export function Articles() {
             ))}
           </Grid>
         </Container>
-      </section> */}
+      </section>
 
-      <Grid container spacing={2} justifyContent="center">
+      {/* <Grid container spacing={2} justifyContent="center">
         {product.map(({ id, image, properties, title, category }) => (
           <Grid item xs={12} sm={6} md={4}>
             <div className="travels ov-hidden" key={id}>
@@ -43,7 +43,7 @@ export function Articles() {
             </div>
           </Grid>
         ))}
-      </Grid>
+      </Grid> */}
     </>
   );
 }

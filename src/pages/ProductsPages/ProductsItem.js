@@ -7,13 +7,16 @@ import "./Item.scss";
 import { Grid } from "@mui/material";
 import { Comments } from "components/Comments/Comments";
 import { Mdn } from "components/Carusel/Carusel";
+import { WhoImage } from "pages/WhoWeAre/WhoImage";
+import { WhoText } from "pages/WhoWeAre/WhoText";
+import { Reviews } from "components/Reviews/Reviews";
 
 export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
   let { id } = useParams();
   return (
     <>
-      <Mdn />
-
+      <WhoImage />
+      <WhoText />
       <div className="item-bgc">
         <Container>
           <Grid container justifyContent="center">
@@ -44,10 +47,17 @@ export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
               <div className="articles__name">{productObj[id].title}</div>
             </Grid>
           </Grid>
-          <div style={{ color: "black" }}>{productObj[id].description}</div>
+          <div
+            style={{ color: "black" }}
+            dangerouslySetInnerHTML={{ __html: productObj[id].description }}
+          ></div>
         </Container>
       </div>
+      <Reviews/>
       <Comments />
     </>
   );
 };
+
+
+<div className="flex"><div> <p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div><div><p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div><div><p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div></div>

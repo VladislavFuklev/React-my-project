@@ -7,7 +7,7 @@ export function ArticlesDescr({ image, title, properties, category, id }) {
     <>
       <div className="articles__img">
         <Link to={`/productsPages/${id}`}>
-          <img src={image} alt="#/" />
+          <img style={{height:'200px'}} src={image} alt="#/" />
         </Link>
       </div>
       <div className="articles__properties">
