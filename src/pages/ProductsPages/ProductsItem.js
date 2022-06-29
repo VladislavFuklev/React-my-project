@@ -6,8 +6,6 @@ import product, { getProductsObject } from "utils/ArticlesArray";
 import "./Item.scss";
 import { Grid } from "@mui/material";
 import { Comments } from "components/Comments/Comments";
-import { WhoImage } from "pages/WhoWeAre/WhoImage";
-import { WhoText } from "pages/WhoWeAre/WhoText";
 import { Reviews } from "components/Reviews/Reviews";
 
 export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
