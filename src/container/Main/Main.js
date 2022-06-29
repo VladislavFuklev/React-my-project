@@ -1,5 +1,4 @@
 import { Mdn } from "components/Carusel/Carusel";
-import { Comments } from "components/Comments/Comments";
 import { Orginize } from "components/Organize/Organize";
 import { Popular } from "components/Popular/Popular";
 import { WhoWeAre } from "pages/WhoWeAre/WhoWeAre";
@@ -8,7 +7,6 @@ import { Countries } from "pages/Countries/Countries";
 import { Nature } from "pages/Nature/Nature";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { Articles } from "pages/Articles/Articles";
 import { ProductsItem } from "pages/ProductsPages/ProductsItem";
 import { Reviews } from "components/Reviews/Reviews";
 import { AllArticles } from "pages/allArticles/AllArticles";

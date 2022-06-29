@@ -6,7 +6,6 @@ import product, { getProductsObject } from "utils/ArticlesArray";
 import "./Item.scss";
 import { Grid } from "@mui/material";
 import { Comments } from "components/Comments/Comments";
-import { Mdn } from "components/Carusel/Carusel";
 import { WhoImage } from "pages/WhoWeAre/WhoImage";
 import { WhoText } from "pages/WhoWeAre/WhoText";
 import { Reviews } from "components/Reviews/Reviews";
@@ -60,4 +59,3 @@ export const ProductsItem = ({ productObj = getProductsObject(product) }) => {
 };
 
 
-<div className="flex"><div> <p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div><div><p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div><div><p>35</p><p>Countires</p><p>Donec vestibulum justo a diam ultricies pel lentesque. Quisque mattis diam vel lac.</p></div></div>
