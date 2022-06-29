@@ -4,6 +4,7 @@ import { Comments } from "components/Comments/Comments";
 import React from "react";
 import product from "utils/ArticlesArray";
 import "./travels.scss";
+import { Reviews } from "components/Reviews/Reviews";
 
 export const Travels = () => {
   return (
@@ -27,10 +28,10 @@ export const Travels = () => {
             ))}
         </Grid>
       </div>
+      <Reviews/>
       <Comments />
     </>
   );
 };
 
 
-<ul><li>Superiores tres erant, quae esse possent, quarum est una sola defensa, eaque vehementer.</li><li>Istam voluptatem perpetuam quis potest praestare sapienti?</li><li>Quia dolori non voluptas contraria est, sed doloris privatio.</li></ul>
