@@ -1,7 +1,8 @@
 .img {
     background: rgba(0, 0, 0, 0.551);
 }
-.im-im{
+
+.im-im {
     background-image: url(../../../public/img/people.jpg);
     height: 400px;
     opacity: 0.3;
@@ -15,47 +16,52 @@
     width: 400px;
 }
 
-.text{
+.text {
     padding: 40px 20px;
     background: rgb(203, 202, 202);
     color: black;
     font-size: 25px;
 }
 
-.descr-img{
+.descr-img {
     margin-top: 50px;
+    margin-bottom: 50px;
+
     img {
         width: 500px;
     }
 }
-.semper{
+
+.semper {
     margin-top: 50px;
     width: 500px;
 }
-.semper-title{
+
+.semper-title {
     font-size: 25px;
     font-weight: 600;
 }
 
-.semper-text{
+.semper-text {
     font-size: 14px;
     margin-top: 15px;
     color: gray;
 }
 
-.number{
+.number {
     color: black;
     font-size: 20px;
 }
 
-.blick{
+.blick {
     width: 200px;
     text-align: center;
 }
 
-.blick-number{
+.blick-number {
     font-size: 35px;
 }
+
 .blick-numberText {
     font-size: 20px;
     margin-top: 10px;
@@ -68,8 +74,17 @@
 
 }
 
-.block-array{
+.block-array {
     display: flex;
     margin-top: 50px;
     justify-content: center;
+}
+
+.img-descr {
+    display: flex;
+justify-content: center;
+    img {
+        width: 600px;
+
+    }
 }

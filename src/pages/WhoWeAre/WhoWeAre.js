@@ -7,6 +7,8 @@ import { WhoSemper } from "./WhoSemper";
 import { Grid } from "@mui/material";
 import { BlockArray } from "./BlockArray";
 import who from "./WhoArray";
+import { Orginize } from "components/Organize/Organize";
+import { Comments } from "components/Comments/Comments";
 
 export const WhoWeAre = () => {
   return (
@@ -26,6 +28,8 @@ export const WhoWeAre = () => {
           </div>
         </Grid>
       </Grid>
+      <Orginize />
+      <Comments/>
     </>
   );
 };

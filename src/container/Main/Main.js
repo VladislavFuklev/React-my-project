@@ -10,6 +10,7 @@ import { Route, Routes } from "react-router-dom";
 import { ProductsItem } from "pages/ProductsPages/ProductsItem";
 import { Reviews } from "components/Reviews/Reviews";
 import { All } from "pages/all/all";
+import { Comments } from "components/Comments/Comments";
 
 export const Main = () => {
   return (
@@ -23,6 +24,7 @@ export const Main = () => {
               <Popular />
               <Orginize />
               <Reviews />
+              <Comments/>
             </>
           }
         />
